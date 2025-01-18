@@ -35,6 +35,13 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import x_light from './x_light.png';
+import x_dark from './x_dark.png';
+import linkedin_dark from './linkedin_dark.png';
+import linkedin_light from './linkedin_light.png';
+import github_dark from './github_dark.png';
+import github_light from './github_light.png';
+
 
 export const assets = {
     user_image,
@@ -73,7 +80,14 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    x_light,
+    x_dark,
+    linkedin_dark,
+    linkedin_light,
+    github_dark,
+    github_light
+  
 };
 
 export const workData = [
@@ -107,13 +121,13 @@ export const serviceData = [
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, ReactJs, NextJs, Tailwind ' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science ' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built 5+ projects' }
 ];
 
 export const contactList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, ReactJs, NextJs, Tailwind ' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science ' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.x_light , iconDark: assets.x_dark ,  link: 'https://x.com/SahilGumber7_' },
+    { icon: assets.linkedin_light  , iconDark: assets.linkedin_dark,  link: 'https://www.linkedin.com/in/sahilgumber7/' },
+    { icon: assets.github_light , iconDark: assets.github_dark ,  link: 'https://github.com/Sahilgumber7' }
 ];
 
 export const toolsData = [
