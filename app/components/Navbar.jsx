@@ -28,7 +28,7 @@ const Navbar = () => {
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#services">SERVICES</a></li>
                 <li><a href="#project">PROJECTS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#connect">CONNECT</a></li>
             </ul>
 
             <div className=" flex items-center gap-4">
@@ -52,6 +52,7 @@ const Navbar = () => {
                 <li><a onClick={closeMenu} href="#about">ABOUT</a></li>
                 <li><a onClick={closeMenu} href="#services">SERVICES</a></li>
                 <li><a onClick={closeMenu} href="#project">PROJECTS</a></li>
+                <li><a onClick={closeMenu} href="#connect">CONNECT</a></li>
                 <li><a onClick={closeMenu} href="#contact">CONTACT</a></li>
             </ul>
 
